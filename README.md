@@ -4,4 +4,12 @@
 
 2. `cd rails-docker-mysql`
 
-3. `docker-compose up --build`
+3. `vim .env`
+```
+MYSQL_ROOT_PASSWORD=password
+MYSQL_USER=mysql_user
+MYSQL_PASSWORD=password
+DB_PASSWORD=password
+```
+
+4. `docker-compose up --build`

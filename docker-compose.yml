@@ -12,7 +12,7 @@ services:
       - '.:/opt'
     environment:
       - DB_USER=root
-      - DB_NAME=app
+      - DB_NAME=${DB_NAME}
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_HOST=db
     tty: true
@@ -31,7 +31,7 @@ services:
     volumes:
       - 'db-data:/var/lib/mysql'
     environment:
-      - MYSQL_DATABASE=app
+      - MYSQL_DATABASE=${DB_NAME}
       - "MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}"
       - "MYSQL_USER=${MYSQL_USER}"
       - "MYSiQL_PASSWORD=${MYSQL_PASSWORD}"

@@ -9,6 +9,7 @@
 MYSQL_ROOT_PASSWORD=password
 MYSQL_USER=mysql_user
 MYSQL_PASSWORD=password
+DB_NAME=app
 DB_PASSWORD=password
 ```
 

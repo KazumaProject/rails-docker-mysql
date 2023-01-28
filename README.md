@@ -6,10 +6,11 @@
 
 3. `vim .env`
 ```
+MYSQL_DATABASE=mysql_database
 MYSQL_ROOT_PASSWORD=password
 MYSQL_USER=mysql_user
 MYSQL_PASSWORD=password
-DB_NAME=app
+DB_NAME=database_name
 DB_PASSWORD=password
 ```
 

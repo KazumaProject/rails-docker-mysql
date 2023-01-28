@@ -34,6 +34,6 @@ services:
       - MYSQL_DATABASE=app
       - "MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}"
       - "MYSQL_USER=${MYSQL_USER}"
-      - "MYSQL_PASSWORD=${password}"
+      - "MYSiQL_PASSWORD=${MYSQL_PASSWORD}"
     ports:
       - "3306:3306"

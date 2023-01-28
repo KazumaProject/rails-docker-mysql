@@ -2,4 +2,6 @@
 
 1. `git clone https://github.com/KazumaProject/rails-docker-mysql.git`
 
-2. `docker-compose up --build`
+2. `cd rails-docker-mysql`
+
+3. `docker-compose up --build`

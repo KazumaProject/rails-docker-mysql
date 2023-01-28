@@ -12,3 +12,4 @@ RUN npm install --global yarn
 
 WORKDIR /opt
 COPY Gemfile Gemfile.lock /opt/
+RUN bundle install

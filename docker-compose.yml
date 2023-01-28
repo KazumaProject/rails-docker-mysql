@@ -37,5 +37,3 @@ services:
       - MYSQL_PASSWORD=password
     ports:
       - "3306:3306"
-    command: --disable-partition-engine-check
-

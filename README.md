@@ -14,4 +14,8 @@ DB_NAME=database_name
 DB_PASSWORD=password
 ```
 
-4. `docker-compose up --build`
+4. `docker-compose build`
+
+5. `docker-compose run --rm web rake db:create`
+
+6. `docker-compose exec web bash`

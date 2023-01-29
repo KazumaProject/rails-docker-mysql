@@ -21,9 +21,7 @@ services:
       - db
     links:
       - db
-    command: bash -c "
-      rake db:create
-      && rails s -b 0.0.0.0"
+    command: rails s -b 0.0.0.0
 
   db:
     image: mysql:5.7

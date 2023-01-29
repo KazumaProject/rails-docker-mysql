@@ -4,19 +4,13 @@
 
 2. `cd rails-docker-mysql`
 
-3. `vim .env`
-```
-MYSQL_DATABASE=mysql_database
-MYSQL_ROOT_PASSWORD=password
-MYSQL_USER=mysql_user
-MYSQL_PASSWORD=password
-DB_NAME=database_name
-DB_PASSWORD=password
-```
+3. `cp .env.example .env`
 
 4. `docker-compose build`
 
 5. `docker-compose run --rm web rake db:create`
+
+6. `docker-compose up -d`
 
 6. `docker-compose exec web bash`
 

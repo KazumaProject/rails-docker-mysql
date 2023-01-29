@@ -6,12 +6,14 @@
 
 3. `cp .env.example .env`
 
-4. `docker-compose build`
+4. `rm -r .env.example`
 
-5. `docker-compose run --rm web rake db:create`
+5. `docker-compose build`
 
-6. `docker-compose up -d`
+6. `docker-compose run --rm web rake db:create`
 
-6. `docker-compose exec web bash`
+7. `docker-compose up -d`
 
-7. `rails s -b 0.0.0.0`
+8. `docker-compose exec web bash`
+
+9. `rails s -b 0.0.0.0`
